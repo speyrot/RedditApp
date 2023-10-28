@@ -1,0 +1,28 @@
+/* src/styles/app.css */
+.app-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-title {
+  font-size: 48px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.post-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media(min-width: 768px) {
+  .post-container {
+    padding: 40px;
+  }
+}
+
