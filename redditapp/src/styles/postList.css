@@ -2,21 +2,19 @@
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  padding: 0 20px;  
-  box-sizing: border-box; 
-}
-
-.post {
-  height: 80vh;  
-  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff; 
-  border-radius: 8px;  
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px; 
+}
+
+.post {
+  height: 100vh;  /* Ensure each post container takes up the entire viewport height */
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .post-list-container::-webkit-scrollbar {

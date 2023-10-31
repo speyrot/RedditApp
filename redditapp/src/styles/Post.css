@@ -1,15 +1,65 @@
-.post-title {
-    font-size: 24px;
-    margin-bottom: 10px;
+.reddit-card {
+  width: 80vmin;  /* Set width and height to 80vmin to create a square card */
+  height: 80vmin;  /* that adjusts based on the viewport size */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff; /* Set background color to white */
+  margin: auto; /* Center the card within the .post container */
 }
 
-.post-image {
+.reddit-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reddit-header img {
+  width: 24px;
+}
+
+.reddit-content {
+  display: flex;
+  margin-top: 16px;
+}
+
+.vote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.upvote,
+.downvote {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.post-content {
+  flex: 1;
+  margin-left: 16px;
+}
+
+.post-content img {
   max-width: 100%;
   border-radius: 8px;
 }
 
-.post {
-  padding: 20px;
+.post-title {
+  margin-top: 8px;
+  font-weight: bold;
 }
-  
+
+.reddit-footer {
+  margin-top: 16px;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.poster-name {
+  color: #0079D3;
+}
   
